@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 import './Home.css'
 import Product from './Product'
 function Home() {
@@ -37,7 +38,7 @@ function Home() {
         </div>
        
         </div>
-       
+        <Footer/>
         </div>
     </div>
   )
