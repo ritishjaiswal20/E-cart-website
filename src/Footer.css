@@ -3,7 +3,8 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    background-color:rgb(16, 15, 15);
+    /* background-color:rgb(16, 15, 15); */
+    background-color:  #24292f;
     color:white;
     margin-right:15px;
     margin-left:15px;

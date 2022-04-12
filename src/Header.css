@@ -2,7 +2,8 @@
     height:80px;
     display:flex;
     align-items:center;
-    background-color:rgb(16, 15, 15);
+    /* background-color:rgb(16, 15, 15); */
+    background-color:  #24292f;
     color:white;
     position:sticky;
     top:0;

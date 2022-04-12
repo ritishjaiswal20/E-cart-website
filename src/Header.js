@@ -16,7 +16,7 @@ function Header() {
     <div className="header">
         {/* logo */}
         <Link to='/'>
-        <img className="header_logo" src="https://cdn.dribbble.com/users/146773/screenshots/4228811/dribble_cart.gif" alt="logo"/>
+        <img className="header_logo"   src="https://www.graphicsprings.com/filestorage/stencils/3055581cff0526602142cbb0bfba9fca.png?width=500&height=500" alt="logo"/>
         </Link>
 
     <div className="header_search">
@@ -27,7 +27,7 @@ function Header() {
      <div className="header_nav">
         <Link to={!user && '/login'}>
         <div onClick={handleAuthentication} className="header_option">
-            <span className="header_optionLineOne">Hello</span>
+            <span className="header_optionLineOne">Hello,{user?.email}</span>
             <span className="header_optionLineTwo">{user ? 'Sign Out':'Sign IN'}</span>
         </div>
         </Link>

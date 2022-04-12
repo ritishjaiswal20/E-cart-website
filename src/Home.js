@@ -34,7 +34,7 @@ function Home() {
           
         </div>
         <div className="home_row">
-        <Product title="The lean startup" rating={5} price={123} image="https://m.media-amazon.com/images/I/81mxentP+bS._AC_UY327_FMwebp_QL65_.jpg"/>
+        <Product title="The lean startup ia doing a good book and a bad compound   " rating={5} price={123} image="https://m.media-amazon.com/images/I/81mxentP+bS._AC_UY327_FMwebp_QL65_.jpg"/>
         </div>
        
         </div>
