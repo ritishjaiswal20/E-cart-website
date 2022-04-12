@@ -9,8 +9,8 @@ function Home() {
   return (
     <div className="home">
         <div className="home_container">
-  
-         <img className="home_image" src="https://m.media-amazon.com/images/I/61pxhbXv8tL._SX3000_.jpg" alt="back"/> 
+        {/* "https://m.media-amazon.com/images/I/61pxhbXv8tL._SX3000_.jpg */}
+         <img className="home_image" src="https://m.media-amazon.com/images/I/51tz+FLdAhL._SX3000_.jpg" alt="back"/> 
         <div className="home_rows">
         <div className="home_row">
             <Product title="The lean startup" rating={5} price={123} image="https://m.media-amazon.com/images/I/51SxIk3Wz+L._AC_SY200_.jpg"/>
